@@ -1,7 +1,7 @@
 let express = require('express');
 let router = express.Router();
-let { links } = require('../controllers/mainController');
+let { list } = require('../controllers/songsController');
 
-router.get('/', links);
+router.get('/', list);
 
 module.exports = router;
