@@ -1,4 +1,6 @@
-<!-- [Proyect Name](https://deploy-endpoint.com/)
+<!--  
+
+[Proyect Name](https://deploy-endpoint.com/)
 ---
 _(something interesting to add?)_
 <h3>For this project I used:</h3>  
@@ -9,7 +11,9 @@ _(something interesting to add?)_
 - [express-session](https://www.npmjs.com/package/express-session)
 - [cookie-parser](https://www.npmjs.com/package/cookie-parser)
 
-It was achieved by following steps provided by the [Coding Academy](https://www.digitalhouse.com/) I'm being tutored by. -->
+It was achieved by following steps provided by the [Coding Academy](https://www.digitalhouse.com/) I'm being tutored by.
+
+-->
 
 <!-- <h4>&nbsp;&nbsp;Para lograr éste proyecto usamos, para el back-end<h4>
 
