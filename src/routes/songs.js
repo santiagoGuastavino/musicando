@@ -1,7 +1,11 @@
 let express = require('express');
 let router = express.Router();
-let { list } = require('../controllers/songsController');
+let {
+    list,
+    pageRedirect
+} = require('../controllers/songsController');
 
-router.get('/', list);
+router.get('/:id?', list);
+router.get('/%7Bpage%7D', pageRedirect)
 
 module.exports = router;

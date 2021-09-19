@@ -26,11 +26,11 @@ module.exports = (sequelize, DataTypes) => {
         cols,
         config
     );
-    Artista.associate = (model) => {
-        Artista.hasMany(model.Album, {
-            as: 'albumes',
-            foreignKey: 'id_album'
-        });
-    };
+    // Artista.associate = (model) => {
+    //     Artista.hasMany(model.Album, {
+    //         as: 'albumes',
+    //         foreignKey: 'id_album'
+    //     });
+    // };
     return Artista;
 };
