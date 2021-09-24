@@ -3,10 +3,20 @@ let db = require('../database/models');
 let songsController = {
     list: async (req, res) => {
         db.Cancion.findAll({
-            // attributes: 
+            attributes: [
+                'nombre',
+                'compositor',
+                'milisegundos',
+                'bytes',
+                'precioUnitario'
+            ],
+            
             limit: 50
         })
-            .then(canciones => res.json(canciones))
+            .then(canciones => {
+                console.log(canciones);
+                res.json(canciones)
+            })
             .catch(err => res.json(err))
         // let warning = null;
         // let allSongs = await db.Cancion.findAll();
