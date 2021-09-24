@@ -23,7 +23,9 @@ module.exports = (sequelize, DataTypes) => {
             field: 'id_genero'
         },
         compositor: {
-            type: DataTypes.STRING(255)
+            type: DataTypes.STRING(255),
+            allowNull: true,
+            defaultValue: true
         },
         milisegundos: {
             type: DataTypes.INTEGER
