@@ -7,9 +7,11 @@ app.use(urlMiddleware);
 
 let mainRouter = require('./routes/main');
 let songsRouter = require('./routes/songs');
+let albumsRouter = require('./routes/albums');
 
 app.use('/', mainRouter);
 app.use('/songs', songsRouter);
+app.use('/albums', albumsRouter);
 
 app.use((req, res, next) => {
     res.status(404).json({
