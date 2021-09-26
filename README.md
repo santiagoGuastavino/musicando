@@ -1,6 +1,7 @@
 [Musicando](https://musicando-rest.herokuapp.com/)
 ---
-_(REST songs)_
+_restful songs_  
+_this project is in an early development stage_
 <h3>For this project I used:</h3>  
 
 - [Node.js](https://nodejs.org)
